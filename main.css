@@ -179,7 +179,7 @@ body{
 }
 
 .piano {
-	background-color: #3A3A3A;
+	background-color: #000000;
 }
 
 .piano h2 {
@@ -187,9 +187,11 @@ body{
 	font-family: 'Cabin', serif;
 }
 
-.piano p {
+.piano ul {
+  list-style: none;
+  padding-left:0;
   color: #ffffff;
-  background-color: #3A3A3A;
+  background-color: #000000;
   font-family: 'Cabin', serif;
   font-size: 14px;
   padding-bottom: 600px;
