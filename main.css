@@ -1,0 +1,203 @@
+body{
+	background-color: #000000
+}
+
+/******************/
+/*    navigator   */
+/******************/
+
+.nav {
+	background-color: #000000;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.nav a {
+	color: #ffffff; 
+	font-family: 'Gloria Hallelujah', serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 14px 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a:link {
+	text-decoration: none;
+	color: #ffffff;
+
+}
+
+.nav a:visited {
+	text-decoration: none;
+	color: #ffffff;
+
+}
+
+.nav .name a:hover {
+	color: #ffffff;
+	text-shadow: none;
+}
+
+.nav .other a:hover {
+	color: #ffffff;
+	text-shadow: 2px 2px 2px #F0F0F0;
+}
+
+.nav a:active {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.nav .name {
+	float: left;
+}
+
+.nav .other {
+	float: right;
+}
+
+.nav .other {
+	word-spacing: -7px;
+}
+
+
+/******************/
+/*    jumbotron   */
+/******************/
+
+/*.jumbotron::after {
+	content: "";
+	top:20%;
+	bottom:0;
+	left:0;
+	right:0;
+	position: absolute;
+	z-index: -1;
+	clear: both;
+	background-image: url('http://www.marinabaysands.com/images/hotel/rooms-suites/deluxe-room/gallery/skyparksunset3000x1730lite.jpg');
+	background-size: 100% 100%;
+	height: 500px;
+	opacity:0.5;
+}*/
+
+.jumbotron {
+	clear:both;
+	background-image: url('http://www.marinabaysands.com/images/hotel/rooms-suites/deluxe-room/gallery/skyparksunset3000x1730lite.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 560px;
+}
+
+.jumbotron li {
+	display: inline;
+	padding-right: 2%;
+	font-family: 'Fjalla One', serif;
+	font-size: 40px;
+	text-shadow: 1px 1px 1px #aaa;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.jumbotron ul {
+	padding-top: 15%;
+	text-align: center;
+}
+
+/***************/
+/*    slider   */
+/***************/
+
+.name {
+  position: relative;
+}
+
+.name:after {
+  display: block;
+  position: absolute;
+  left: 24%;
+  bottom: 0px;
+  width: 0;
+  height: 4px;
+  background-color: #33FFFF;
+  content: "";
+  transition: width 0.2s;
+}
+
+.name:hover {
+	color: #ffffff;
+	text-shadow: 2px 2px 2px #F0F0F0;
+}
+.name:hover:after {
+  width: 70%;
+}
+
+
+/***********************/
+/*    Other contents   */
+/***********************/
+
+.aboutme {
+	background-color: #ffffff;
+	padding-bottom: 300px;
+}
+
+.aboutme h1 {
+  font-family: 'Quantico', serif;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.aboutme p{
+  display: block;
+  font-color: #000000;
+  font-family: 'Cabin', serif;
+  font-size: 14px;
+  width: 600px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 20px;
+}
+
+#mypicture {
+	width: 20%;
+	height: 20%;
+	padding-left: 20px;	
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 50px;
+	border-radius: 130px;
+	float: left;
+}
+
+.piano {
+	background-color: #3A3A3A;
+}
+
+.piano h2 {
+	color: #ffffff;
+	font-family: 'Cabin', serif;
+}
+
+.piano p {
+  color: #ffffff;
+  background-color: #3A3A3A;
+  font-family: 'Cabin', serif;
+  font-size: 14px;
+  padding-bottom: 600px;
+
+}
+
+#pic1, #pic2, #pic4 {
+	width: 300px;
+	height: 200px;
+	margin-top: 50px;
+}
