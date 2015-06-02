@@ -1,5 +1,5 @@
 body{
-	background-color: #000000
+	background-color: #fff
 }
 
 /******************/
@@ -7,9 +7,9 @@ body{
 /******************/
 
 .nav {
-	background-color: #000000;
+	background-color: #fff;
 	padding-top: 20px;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
 }
 
 .nav a {
@@ -28,37 +28,27 @@ body{
 
 .nav a:link {
 	text-decoration: none;
-	color: #ffffff;
-
+	color: #000;
 }
 
 .nav a:visited {
 	text-decoration: none;
-	color: #ffffff;
-
+	color: #000;
 }
 
-.nav .name a:hover {
-	color: #ffffff;
+#logo a:hover {
+	color: #000;
 	text-shadow: none;
 }
 
-.nav .other a:hover {
-	color: #ffffff;
+.nav a:hover {
+	color: #000;
 	text-shadow: 2px 2px 2px #F0F0F0;
 }
 
 .nav a:active {
 	text-decoration: none;
-	color: #ffffff;
-}
-
-.nav .name {
-	float: left;
-}
-
-.nav .other {
-	float: right;
+	color: #000;
 }
 
 .nav .other {
@@ -87,10 +77,12 @@ body{
 
 .jumbotron {
 	clear:both;
-	background-image: url('http://www.marinabaysands.com/images/hotel/rooms-suites/deluxe-room/gallery/skyparksunset3000x1730lite.jpg');
+	background-color: #fff;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	height: 560px;
+	padding-top: 70px;
+	padding-left: 40px;
 }
 
 .jumbotron li {
@@ -109,45 +101,67 @@ body{
 	text-align: center;
 }
 
+.jumbotron h1 {
+	font-size: 40px;
+}
+
+.jumbotron p {
+	padding-top: 40px;
+	text-align: justify;
+	font-family: 'Cabin', serif;
+	padding-right: 50px;
+}
+
+#box1:hover {
+	background: #FDD4E9;
+}
+
+#box2:hover {
+	background: #F6FDD4;
+}
+
+#box3:hover {
+	background: #CEFFD2;
+}
+
 /***************/
 /*    slider   */
 /***************/
 
-.name {
+#logo {
   position: relative;
 }
 
-.name:after {
+#logo:after {
   display: block;
   position: absolute;
-  left: 24%;
-  bottom: 0px;
+  left: 16%;
+  bottom: 14px;
   width: 0;
   height: 4px;
-  background-color: #33FFFF;
+  background-color: #000;
   content: "";
   transition: width 0.2s;
 }
 
-.name:hover {
+#logo:hover {
 	color: #ffffff;
 	text-shadow: 2px 2px 2px #F0F0F0;
 }
-.name:hover:after {
-  width: 70%;
+#logo:hover:after {
+  width: 60%;
 }
-
 
 /***********************/
 /*    Other contents   */
 /***********************/
 
-.aboutme {
+#aboutme {
 	background-color: #ffffff;
 	padding-bottom: 300px;
 }
 
-.aboutme h1 {
+#aboutme h1 {
   font-family: 'Quantico', serif;
   padding-top: 20px;
   padding-left: 20px;
@@ -156,7 +170,7 @@ body{
   font-weight: bold;
 }
 
-.aboutme p{
+#aboutme p{
   display: block;
   font-color: #000000;
   font-family: 'Cabin', serif;
@@ -184,7 +198,7 @@ body{
 
 .piano h3 {
 	color: #ffffff;
-	font-family: 'Bad Script', serif;
+  	font-family: 'Cabin', serif;
 	text-transform: uppercase;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -195,14 +209,30 @@ body{
   padding-left:0;
   color: #ffffff;
   background-color: #000000;
-  font-family: 'Karla', serif;
+  font-family: 'Cabin', serif;
   font-size: 14px;
   padding-bottom: 600px;
 
 }
 
-#pic1, #pic2, #pic4 {
+#pic1, #pic2, #pic3 {
 	width: 300px;
 	height: 200px;
 	margin-top: 50px;
 }
+
+
+.fixed-size-square {
+    display: table;
+    border: 10px solid black;
+    width: 250px;
+    height: 250px;
+    background: #fff;
+}
+.fixed-size-square span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: black
+}
+
